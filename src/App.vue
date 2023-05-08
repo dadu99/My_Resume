@@ -1,26 +1,47 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <v-app>
+    <v-main>
+      <router-view/>
+    </v-main>
+  </v-app>
 </template>
 
+
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import {onMounted} from "vue";
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
+
+  setup() {
+
+    // Begin change title when user changes tab
+    let docTitle = document.title;
+    window.addEventListener("blur", () => {
+      document.title = 'Come Back ;(';
+    });
+
+    window.addEventListener("focus", () => {
+      document.title = docTitle;
+    })
+    //End change title when user changes tab.
+
+    onMounted(() => {
+
+    })
+
+    return {
+
+    }
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+html, body {
+  font-family: 'Lato', sans-serif;
+  border: none;
+  margin: 0;
+  padding: 0;
 }
 </style>
