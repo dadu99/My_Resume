@@ -9,4 +9,5 @@ module.exports = defineConfig({
           'vue/no-deprecated-slot-attribute': 'off',
       },
   }
+
 })

@@ -1,9 +1,7 @@
 <template>
   <div class="head-section">
-    <transition appear
-                @before-enter="beforeEnter"
-                @enter="enter">
-      <h1 class="welcome-text">Welcome to my Page</h1>
+    <transition appear @before-enter="beforeEnter" @enter="enter">
+      <h1 class="welcome-text">Welcome to My Resume</h1>
     </transition>
   </div>
 </template>
@@ -31,15 +29,19 @@ export default {
 
 <style scoped lang="scss">
 .head-section {
-  display: flex;
-  justify-content: center;
-
   .welcome-text {
+    padding: 15px;
+    text-align: center;
+    font-size: 3em;
+    color: #c4661f;
     z-index: 2;
-    color: white;
-    font-size: 3.5em;
   }
 }
 
-
+@media only screen and (max-width: 768px) {
+    .welcome-text {
+      text-align: center;
+      font-size: 1.6em;
+    }
+  }
 </style>
