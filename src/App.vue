@@ -27,7 +27,7 @@ export default {
 
         onMounted(() => {
 
-            console.log('on mounted');
+           // console.log('on mounted');
         })
         return {}
     }
