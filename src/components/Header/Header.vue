@@ -39,9 +39,12 @@ export default {
 }
 
 @media only screen and (max-width: 768px) {
-    .welcome-text {
-      text-align: center;
-      font-size: 1.6em;
+  .head-section {
+      .welcome-text {
+        text-align: center;
+        font-size: 1.6em;
+        font-weight: 300;
+      }
     }
-  }
+}
 </style>

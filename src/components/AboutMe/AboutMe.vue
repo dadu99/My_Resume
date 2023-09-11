@@ -52,7 +52,7 @@
             </ContentSection>
 
             <ContentSection v-if="skills" id="to-timeline" title="Technical Skills">
-                <v-layout wrap>
+                <div>
                     <div v-for="(skill, iterateSkill) in skills" :key="iterateSkill">
                         <v-flex v-if="skill.divider" md12 xs12 mb-4/>
                         <div class="mr-2 ml-2">
@@ -67,7 +67,7 @@
                                                :model-value="skill.value"/>
                         </div>
                     </div>
-                </v-layout>
+                </div>
             </ContentSection>
 
             <ContentSection v-if="personalProjects" title="Other technical skills">
@@ -290,5 +290,4 @@ export default {
   gap: 15px;
   line-height: 30px;
 }
-
 </style>

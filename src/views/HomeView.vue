@@ -94,9 +94,10 @@ export default defineComponent({
 }
 @media only screen and (max-width: 550px) {
     .size-screens {
+        max-width: 100vw;
         .about-me-screen {
             margin-top: 3vh;
-            max-width: 83vw;
+            max-width: 90vw;
         }
     }
 }
