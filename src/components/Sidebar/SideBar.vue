@@ -110,7 +110,7 @@ export default {
                             text: 'Now 21, 1996',
                         },
                         {
-                            name: 'Habitation',
+                            name: 'Location',
                             icon: 'mdi-map-marker',
                             text: 'Sibiu, Romania',
                         },

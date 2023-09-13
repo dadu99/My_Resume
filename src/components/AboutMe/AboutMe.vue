@@ -7,7 +7,7 @@
                 </li>
                 <li>
                     I'm interested and skilled in different topics of Information Technology including programming, web
-                    development, and computer and network security
+                    development, computer and network security
                 </li>
                 <li>
                     Enthusiast and ambitious person, who enjoys challenges, keen to learn new things and working with
