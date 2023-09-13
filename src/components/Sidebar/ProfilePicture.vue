@@ -2,7 +2,7 @@
     <div class="text-md-center">
         <div class="avatar">
             <v-avatar color="grey" size="150" rounded="50">
-                <v-img cover :src="mainImage" alt="Darius Baciu"></v-img>
+                <v-img contain :src="mainImage" alt="Darius Baciu"></v-img>
             </v-avatar>
         </div>
     </div>
@@ -25,13 +25,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-
-.profile-picture {
-  object-fit: cover;
-  width: 120px;
-  height: 160px;
-  border-radius: 60%;
-}
 
 .avatar {
   padding-top: 2vh;

@@ -29,6 +29,11 @@ export default {
         }
     },
     computed: {
+        /**
+         * function hasIcon
+         * check if there are existing avatar for this resume
+         * no params
+         */
         hasIcon() {
             return !!this.item.icon
         },
@@ -50,10 +55,10 @@ export default {
 
   &:hover {
     color: #FEFAE0;
-    padding: 4px;
-    border-radius: 27px;
+    padding: 8px;
+    border-radius: 10px;
     cursor: pointer;
-    box-shadow: inset 200px 0 0 0 #C4661F;
+    box-shadow: inset 224px 0 0 0 #C4661F;
   }
 }
 </style>

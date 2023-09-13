@@ -46,6 +46,8 @@ html, body {
     background-color: #FEFAE0;
     margin: 0;
     padding: 0;
-
+}
+.v-img__img  {
+    height: 201px!important;
 }
 </style>

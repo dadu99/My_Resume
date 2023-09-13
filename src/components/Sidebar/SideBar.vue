@@ -107,7 +107,7 @@ export default {
                         {
                             name: 'Birth Date',
                             icon: 'mdi-cake-variant',
-                            text: 'Now 21, 1996',
+                            text: 'Nov 21, 1996',
                         },
                         {
                             name: 'Location',

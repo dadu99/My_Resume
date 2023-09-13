@@ -186,7 +186,22 @@ export default {
                     value: 80,
                 },
                 {
-                    title: 'Vue.js Framework',
+                    title: 'PrimeVue',
+                    icon: 'mdi-vuejs',
+                    value: 80,
+                },
+                {
+                    title: 'Pinia',
+                    icon: 'mdi-vuejs',
+                    value: 80,
+                },
+                {
+                    title: 'Vite.js',
+                    icon: 'mdi-vuejs',
+                    value: 80,
+                },
+                {
+                    title: 'Vuetify',
                     icon: 'mdi-vuetify',
                     value: 70,
                 },
@@ -203,12 +218,12 @@ export default {
                 {
                     title: 'Git',
                     icon: 'mdi-git',
-                    value: 80,
+                    value: 90,
                 },
                 {
                     title: 'Trello',
                     icon: 'mdi-trello',
-                    value: 60,
+                    value: 80,
                 },
                 {
                     title: 'MySQL',
@@ -218,7 +233,7 @@ export default {
                 {
                     title: 'Linux Commands',
                     icon: 'mdi-linux',
-                    value: 40,
+                    value: 50,
                 },
                 {
                     title: 'Docker',
@@ -289,5 +304,11 @@ export default {
 .layout-education {
   gap: 15px;
   line-height: 30px;
+}
+@media screen and (max-width: 550px) {
+    .head-experience {
+        gap: 99px;
+        font-style: italic;
+  }
 }
 </style>
