@@ -269,6 +269,7 @@ export default {
     }
 }
 </script>
+
 <style scoped lang="scss">
 .sideBar_section {
   .sidebar_section_content {
