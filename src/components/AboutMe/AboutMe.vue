@@ -20,7 +20,7 @@
                     <v-flex class="period-section">
                         <div class="head-experience">
                             <strong v-if="proud.title">{{ proud.title }}</strong>
-                            <strong>{{ proud.from }} -{{ proud.to }}</strong>
+                            <strong>{{ proud.from }} - {{ proud.to }}</strong>
                         </div>
 
                         <div v-if="proud.company">
@@ -35,17 +35,17 @@
 
             <ContentSection v-if="educations" title="Education">
                 <v-layout v-for="(education, i) in educations" :key="i" class="layout-education">
-                    <v-flex>
-                        <strong>{{ education.from }}-{{ education.to }}</strong>
-                    </v-flex>
-
-                    <v-flex>
-                        <strong v-if="education.title">{{ education.title }}</strong>
+                    <v-flex class="period-section">
+                        <div class="head-experience">
+                               <strong v-if="education.title">{{ education.title }}</strong>
+                        <strong>{{ education.from }} - {{ education.to }}</strong>
+                        </div>
+                     
                         <div v-if="education.location">
-                            <i>{{ education.location }}</i>
+                            <b class="font-weight-thin">{{ education.location }}</b>
                         </div>
                         <div v-if="education.description">
-                            {{ education.description }}
+                            <span>&#8226;</span> {{ education.description }}   
                         </div>
                     </v-flex>
                 </v-layout>
@@ -73,17 +73,16 @@
             <ContentSection v-if="personalProjects" title="Other technical skills">
                 <v-layout class="layout-education">
                     <ul class="others-technical-skills">
-                        <li>Programming in Borland C++, MinGW Developer Studio, Microsoft Visual Studio, NetBeans,
+                        <li> <span>&#8226;</span> Programming in Borland C++, MinGW Developer Studio, Microsoft Visual Studio, NetBeans,
                             Eclipse, IntelliJ IDEA;
                         </li>
-                        <li>Basic knowledgeWordPress</li>
-                        <li>Knowledge of ANSI c/C++, Java 11, OOP, Python, MS Office: Word, Power Point, Excel,
-                            Access.
-                        </li>
-                        <li>Basic knowledge in assembling language</li>
-                        <li>Basic knowledge Windows Server</li>
-                        <li>Software documentation development (technical and user guides)</li>
-                        <li>Artificial Intelligence</li>
+                        <li> <span>&#8226;</span> Basic knowledgeWordPress</li>
+                        <li>  <span>&#8226;</span> Knowledge of ANSI c/C++, Java 11, OOP, Python, MS Office: Word, Power Point, Excel,
+                            Access.</li>
+                        <li>  <span>&#8226;</span> Basic knowledge in assembling language</li>
+                        <li> <span>&#8226;</span> Basic knowledge Windows Server</li>
+                        <li>  <span>&#8226;</span> Software documentation development (technical and user guides)</li>
+                        <li>  <span>&#8226;</span> Artificial Intelligence</li>
                     </ul>
                 </v-layout>
             </ContentSection>
@@ -117,14 +116,14 @@ export default {
                     to: '2022',
                     title: 'Master\'s degree, Advanced Computing Systems',
                     location: '"Lucian Blaga" University of Sibiu',
-                    description: '',
+                    description: 'Activities: Advanced Methods in Text Mining, Data Compression, Research Methods in Advanced Computing Architectures, Advanced Computer Graphics',
                 },
                 {
                     from: '2016',
                     to: '2020',
                     title: 'Bachelor\'s degree, Computer Science',
                     location: '"Lucian Blaga" University of Sibiu',
-                    description: 'Activities and societies: Computer Programming, Object-Oriented Programming, Web Development, Artificial Intelligence',
+                    description: 'Activities: Computer Programming, Object-Oriented Programming, Web Development, Artificial Intelligence, Technologies for Application Development',
                 },
                 {
                     from: '2012',
@@ -145,21 +144,21 @@ export default {
                 {
                     from: '11/2020',
                     to: '03/2021',
-                    title: 'Frontend Developer - 4 mo',
+                    title: 'Frontend Developer',
                     company: 'Scriptics Decisions, Sibiu',
                     description: '',
                 },
                 {
                     from: '07/2019',
                     to: '08/2019',
-                    title: 'Backend Developer - 2 mo',
+                    title: 'Backend Developer',
                     company: 'iQuest Group, Sibiu',
                     description: 'Project Name: Educational Application, Project Description: An education application for children from schools, where every child can read books from different subjects. I  was involved in creating the PostgreSQL database, managing it and solving tasks such as creating controllers for many categories, store/search documents, CRUD operations. Technologies used: Java 11, Maven, PostgreSQL, SpringBoot, Apache Solr',
                 },
                 {
                     from: '08/2018',
                     to: '07/2018',
-                    title: 'Stundent Intern - 1 mo',
+                    title: 'Stundent Intern',
                     company: 'Ausy Technologies Sibiu Ausy Technologies, Sibiu\n',
                     description: 'Project Name: Slither.io game, Project Description: The game is played in matches between two players which integrate server-client side (working on it during summer practice). Technologies used: C++',
                 },
@@ -168,7 +167,7 @@ export default {
                 {
                     title: 'JavaScript',
                     icon: 'mdi-language-javascript',
-                    value: 80,
+                    value: 85,
                 },
                 {
                     title: 'PHP',
@@ -178,17 +177,17 @@ export default {
                 {
                     title: 'Laravel 8 Framework',
                     icon: 'mdi-laravel',
-                    value: 70,
+                    value: 75,
                 },
                 {
                     title: 'Vue.js Framework',
                     icon: 'mdi-vuejs',
-                    value: 80,
+                    value: 90,
                 },
                 {
                     title: 'PrimeVue',
                     icon: 'mdi-vuejs',
-                    value: 80,
+                    value: 85,
                 },
                 {
                     title: 'Pinia',
@@ -223,7 +222,7 @@ export default {
                 {
                     title: 'Trello',
                     icon: 'mdi-trello',
-                    value: 80,
+                    value: 90,
                 },
                 {
                     title: 'MySQL',
@@ -233,7 +232,7 @@ export default {
                 {
                     title: 'Linux Commands',
                     icon: 'mdi-linux',
-                    value: 50,
+                    value: 60,
                 },
                 {
                     title: 'Docker',
@@ -243,7 +242,7 @@ export default {
                 {
                     title: 'Hardware Development',
                     icon: 'mdi-chip',
-                    value: 50,
+                    value: 60,
                 },
                 {
                     title: 'C/C++',
@@ -294,6 +293,7 @@ export default {
   .head-experience {
     display: flex;
     justify-content: space-between;
+    margin-top: 10px;
   }
 }
 
@@ -308,6 +308,7 @@ export default {
 @media screen and (max-width: 550px) {
     .head-experience {
         gap: 99px;
+       // gap: 70px;
         font-style: italic;
   }
 }

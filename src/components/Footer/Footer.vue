@@ -2,9 +2,9 @@
     <v-footer class="dark padless custom-footer-bnd">
         <v-card flat tile width="100%" class="primary text-center background-portfolio">
             <v-divider></v-divider>
-            <v-card-text class="white--text font-weight-light">
+            <v-card-text>
                 Copyright {{ new Date().getFullYear() }}
-                | Powered by <strong>Darius Baciu</strong>
+                | Powered by <b>Darius Baciu</b>
             </v-card-text>
         </v-card>
     </v-footer>

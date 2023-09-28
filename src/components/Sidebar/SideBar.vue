@@ -38,7 +38,7 @@
                             <template v-for="(item, i) in items" :key="i">
                                 <v-flex md3 sm4 xs6>
                                     <v-progress-circular rotate="360"
-                                                         size="85"
+                                                         size="79"
                                                          width="4"
                                                          :model-value="item.value"
                                                          color="#C4661F"
@@ -240,20 +240,28 @@ export default {
                     items: [
                         {
                             index: 0,
-                            skill: 'Dynamics 365 Fundamentals (MB-901) – Nov 2020'
+                            skill: 'JavaScript Essential Training - Sep 2023'
                         },
                         {
                             index: 1,
-                            skill: 'CCNA (Cisco Certified Network Associate) – CCNA Routing and Switching: Introduction to Networks (CCNA I) – February 2019'
+                            skill: 'Git Essential Training - Sep 2023'
                         },
                         {
                             index: 2,
-                            skill: 'CCNA Routing and Switching: Routing and Switching Essentials (CCNA II) – July 2019;'
+                            skill: 'Dynamics 365 Fundamentals (MB-901) – Nov 2020'
                         },
                         {
                             index: 3,
-                            skill: 'European Computer Driving License (ECDL) Core Certificate – Feb 2016'
+                            skill: 'CCNA (Cisco Certified Network Associate) – CCNA Routing and Switching: Introduction to Networks (CCNA I) – February 2019'
                         },
+                        {
+                            index: 4,
+                            skill: 'CCNA Routing and Switching: Routing and Switching Essentials (CCNA II) – July 2019;'
+                        },
+                        {
+                            index: 5,
+                            skill: 'European Computer Driving License (ECDL) Core Certificate – Feb 2016'
+                        }
                     ],
                 },
             },
