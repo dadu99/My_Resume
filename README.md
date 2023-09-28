@@ -1,5 +1,4 @@
-# https://dariusbaciu.netlify.app/
-
+# portfolio-baciu
 ## Project setup
 ```
 npm install
