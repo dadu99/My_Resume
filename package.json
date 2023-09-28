@@ -11,6 +11,7 @@
     "@mdi/font": "5.9.55",
     "core-js": "^3.8.3",
     "gsap": "^3.11.4",
+    "npm-install-global": "^1.0.0",
     "roboto-fontface": "*",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3",
@@ -42,7 +43,7 @@
     ],
     "parserOptions": {
       "parser": "@babel/eslint-parser",
-       "requireConfigFile": false
+      "requireConfigFile": false
     },
     "rules": {}
   },
