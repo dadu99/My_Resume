@@ -1,7 +1,6 @@
 <template>
     <v-app id="portfolio-home">
         <header-section></header-section>
-
         <v-fade-transition mode="out-in" type="animation">
                 <v-container class="fill-height size-screens">
                     <v-layout class="size-screens_content">
