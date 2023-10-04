@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import profilePic from "@/assets/dbaciu_copy.jpg";
+import profilePic from "../../assets/dbaciu_copy.jpg";
 
 export default {
     name: "ProfilePicture",

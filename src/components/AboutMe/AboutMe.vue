@@ -101,7 +101,7 @@
 </template>
 
 <script>
-import ContentSection from "@/components/AboutMe/ContentSection";
+import ContentSection from "../AboutMe/ContentSection.vue";
 
 export default {
     name: "AboutMe",

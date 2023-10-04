@@ -81,8 +81,8 @@
 
 
 <script>
-import ProfilePicture from "@/components/Sidebar/ProfilePicture";
-import SidebarSection from "@/components/Sidebar/Section.vue";
+import ProfilePicture from "../Sidebar/ProfilePicture.vue";
+import SidebarSection from "../Sidebar/Section.vue";
 
 export default {
     name: "SideBar",

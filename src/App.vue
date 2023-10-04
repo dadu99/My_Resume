@@ -9,9 +9,6 @@
 
 <script>
 import {onMounted} from "vue";
-
-//Da
-
 export default {
     name: 'App',
 

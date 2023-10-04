@@ -17,7 +17,7 @@
 </template>
 
 <script>
-import SectionItem from "@/components/Sidebar/SectionItem.vue";
+import SectionItem from "../Sidebar/SectionItem.vue";
 
 export default {
     name: 'SidebarSection',

@@ -1,6 +1,5 @@
 <template>
     <v-app id="portfolio-home">
-        <header-section></header-section>
         <v-fade-transition mode="out-in" type="animation">
                 <v-container class="fill-height size-screens">
                     <v-layout class="size-screens_content">
@@ -17,25 +16,20 @@
                     </v-layout>
                 </v-container>
         </v-fade-transition>
-        <Footer></Footer>
+       <FooterResume></FooterResume>
     </v-app>
 </template>
 
 <script>
 import {defineComponent} from "vue";
-import AboutMe from "@/components/AboutMe/AboutMe";
-import SideBar from "@/components/Sidebar/SideBar";
-import HeaderSection from "@/components/Header/Header";
-import Footer from "@/components/Footer/Footer.vue";
+import AboutMe from "../components/AboutMe/AboutMe.vue";
+import SideBar from "../components/Sidebar/SideBar.vue";
+import FooterResume from "../components/Footer/FooterResume.vue";
 
 
 export default defineComponent({
     name: "HomeView",
-    components: {Footer, HeaderSection, SideBar, AboutMe},
-
-    setup() {
-        return {};
-    },
+    components: {FooterResume, SideBar, AboutMe},
 
 });
 </script>
