@@ -39,7 +39,7 @@
                                 <v-flex md3 sm4 xs6>
                                     <v-progress-circular rotate="360"
                                                          size="79"
-                                                         width="4"
+                                                         width="3"
                                                          :model-value="item.value"
                                                          color="#C4661F"
                                                          class="ma-2">
@@ -99,11 +99,11 @@ export default {
                             icon: 'mdi-email',
                             text: 'baciu.darius01@gmail.com',
                         },
-                        /*    {
-                                name: 'Website',
-                                icon: 'mdi-web',
-                                text: 'www.baciu.ro',
-                            },*/
+                        {
+                            name: 'Website',
+                            icon: 'mdi-web',
+                            text: 'https://dariusbaciu.netlify.app',
+                        },
                         {
                             name: 'Birth Date',
                             icon: 'mdi-cake-variant',

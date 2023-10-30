@@ -47,8 +47,6 @@ export default {
 
 .text-content-first {
   font-size: 1rem;
-  line-height: 30px;
+  line-height: 30px!important;
 }
-
-
 </style>
