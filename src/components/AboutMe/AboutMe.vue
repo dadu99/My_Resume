@@ -275,6 +275,10 @@ export default {
                 {
                     project: '5',
                     projectDescription: 'Web application online car auctions using PHP and MySQL language'
+                },
+                {
+                    project: '6',
+                    projectDescription: 'User administration to manage all users from admin panel in laravel 8 and bootstrap'
                 }
             ],
         }

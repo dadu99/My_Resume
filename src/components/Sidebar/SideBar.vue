@@ -102,7 +102,8 @@ export default {
                         {
                             name: 'Website',
                             icon: 'mdi-web',
-                            text: 'https://dariusbaciu.netlify.app',
+                            text: 'dariusbaciu.netlify.app',
+                            link: 'https://dariusbaciu.netlify.app'
                         },
                         {
                             name: 'Birth Date',
@@ -113,6 +114,7 @@ export default {
                             name: 'Location',
                             icon: 'mdi-map-marker',
                             text: 'Sibiu, Romania',
+                            link: 'https://www.google.com/maps/place/Sibiu/@45.7830872,24.057438,12z/data=!3m1!4b1!4m6!3m5!1s0x474c6788fd2c1cd5:0x3ade9d214e3390b4!8m2!3d45.8034789!4d24.1449997!16zL20vMDIwYmx6?entry=ttu',
                         },
                     ],
                 },
