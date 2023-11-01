@@ -57,6 +57,7 @@ export default {
     padding: 8px;
     border-radius: 10px;
     cursor: pointer;
+    word-break: break-all;
     box-shadow: inset 224px 0 0 0 #C4661F;
   }
 }

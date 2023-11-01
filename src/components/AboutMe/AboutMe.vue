@@ -20,7 +20,7 @@
                     <v-flex class="period-section">
                         <div class="head-experience">
                             <strong v-if="proud.title">{{ proud.title }}</strong>
-                            <strong>{{ proud.from }} - {{ proud.to }}</strong>
+                            <strong>{{ proud.from }}-{{ proud.to }}</strong>
                         </div>
 
                         <div v-if="proud.company">
@@ -38,7 +38,7 @@
                     <v-flex class="period-section">
                         <div class="head-experience">
                                <strong v-if="education.title">{{ education.title }}</strong>
-                        <strong>{{ education.from }} - {{ education.to }}</strong>
+                        <strong>{{ education.from }}-{{ education.to }}</strong>
                         </div>
                      
                         <div v-if="education.location">
@@ -77,10 +77,10 @@
                             Eclipse, IntelliJ IDEA;
                         </li>
                         <li> <span>&#8226;</span> Basic knowledgeWordPress</li>
-                        <li>  <span>&#8226;</span> Knowledge of ANSI c/C++, Java 11, OOP, Python, MS Office: Word, Power Point, Excel,
+                        <li> <span>&#8226;</span> Knowledge of ANSI c/C++, Java 11, OOP, Python, MS Office: Word, Power Point, Excel,
                             Access.</li>
                         <li>  <span>&#8226;</span> Basic knowledge in assembling language</li>
-                        <li> <span>&#8226;</span> Basic knowledge Windows Server</li>
+                        <li>  <span>&#8226;</span> Basic knowledge Windows Server</li>
                         <li>  <span>&#8226;</span> Software documentation development (technical and user guides)</li>
                         <li>  <span>&#8226;</span> Artificial Intelligence</li>
                     </ul>
@@ -112,22 +112,22 @@ export default {
         return {
             educations: [
                 {
-                    from: '2020',
-                    to: '2022',
+                    from: '10/2020',
+                    to: '07/2022',
                     title: 'Master\'s degree, Advanced Computing Systems',
                     location: '"Lucian Blaga" University of Sibiu',
                     description: 'Activities: Advanced Methods in Text Mining, Data Compression, Research Methods in Advanced Computing Architectures, Advanced Computer Graphics',
                 },
                 {
-                    from: '2016',
-                    to: '2020',
+                    from: '10/2016',
+                    to: '07/2020',
                     title: 'Bachelor\'s degree, Computer Science',
                     location: '"Lucian Blaga" University of Sibiu',
                     description: 'Activities: Computer Programming, Object-Oriented Programming, Web Development, Artificial Intelligence, Technologies for Application Development',
                 },
                 {
-                    from: '2012',
-                    to: '2016',
+                    from: '09/2012',
+                    to: '08/2016',
                     title: 'Bacalaureat Diploma',
                     location: '"Gheorghe Lazar" National College Sibiu',
                     description: '',
@@ -159,7 +159,7 @@ export default {
                     from: '08/2018',
                     to: '07/2018',
                     title: 'Stundent Intern',
-                    company: 'Ausy Technologies Sibiu Ausy Technologies, Sibiu\n',
+                    company: 'Ausy Technologies Sibiu',
                     description: 'Project Name: Slither.io game, Project Description: The game is played in matches between two players which integrate server-client side (working on it during summer practice). Technologies used: C++',
                 },
             ],
@@ -313,8 +313,8 @@ export default {
 @media screen and (max-width: 550px) {
     .head-experience {
         gap: 99px;
-       // gap: 70px;
         font-style: italic;
+        text-align: left;
   }
 }
 </style>

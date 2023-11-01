@@ -167,7 +167,15 @@ export default {
                             text: 'Gym',
                         },
                         {
-                            icon: 'mdi-biohazard',
+                            icon: 'mdi mdi-car-convertible',
+                            text: 'Formula 1',
+                        },
+                        {
+                            icon: 'mdi mdi-bookshelf',
+                            text: 'Reading',
+                        },
+                        {
+                            icon: 'mdi mdi-shield-account',
                             text: 'Challenges',
                         },
                     ],
