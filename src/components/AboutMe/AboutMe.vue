@@ -139,14 +139,14 @@ export default {
                     to: 'Present',
                     title: 'Frontend Developer',
                     company: 'Scriptics Decisions, Sibiu',
-                    description: 'This is my first job after finishing the university. At this job I have a position of Frontend Developer but now I’m working as a full stack PHP Laravel and Vue.js',
+                    description: 'Full-time: This is my first job after finishing the university. At this job I have a position of Frontend Developer but now I’m working as a full stack PHP Laravel and Vue.js',
                 },
                 {
                     from: '11/2020',
                     to: '03/2021',
                     title: 'Frontend Developer',
                     company: 'Scriptics Decisions, Sibiu',
-                    description: '',
+                    description: 'Part-time',
                 },
                 {
                     from: '07/2019',

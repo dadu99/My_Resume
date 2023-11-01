@@ -215,8 +215,8 @@ export default {
                         {
                             skillIndex: 3,
                             skill: 'Proficient in debugging and\n' +
-                                'troubleshooting the existing\n' +
-                                'codebase of a project'
+                                     'troubleshooting the existing\n' +
+                                     'codebase of a project'
                         },
                         {
                             skillIndex: 4,
