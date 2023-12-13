@@ -4,7 +4,7 @@
             <v-divider></v-divider>
             <v-card-text>
                 Copyright {{ new Date().getFullYear() }}
-                | Powered by <b>Darius Baciu</b>
+                | Powered by <b>Darius Baciu</b> 
             </v-card-text>
         </v-card>
     </v-footer>

@@ -76,9 +76,8 @@
                         <li> <span>&#8226;</span> Programming in Borland C++, MinGW Developer Studio, Microsoft Visual Studio, NetBeans,
                             Eclipse, IntelliJ IDEA;
                         </li>
-                        <li> <span>&#8226;</span> Basic knowledgeWordPress</li>
-                        <li> <span>&#8226;</span> Knowledge of ANSI c/C++, Java 11, OOP, Python, MS Office: Word, Power Point, Excel,
-                            Access.</li>
+                        <li>  <span>&#8226;</span> Knowledge in WordPress</li>
+                        <li>  <span>&#8226;</span> Knowledge of ANSI c/C++, Java 11, OOP, Python, MS Office: Word, Power Point, Excel, Access</li>
                         <li>  <span>&#8226;</span> Basic knowledge in assembling language</li>
                         <li>  <span>&#8226;</span> Basic knowledge Windows Server</li>
                         <li>  <span>&#8226;</span> Software documentation development (technical and user guides)</li>
@@ -139,7 +138,7 @@ export default {
                     to: 'Present',
                     title: 'Frontend Developer',
                     company: 'Scriptics Decisions, Sibiu',
-                    description: 'Full-time: This is my first job after finishing the university. At this job I have a position of Frontend Developer but now I’m working as a full stack PHP Laravel and Vue.js',
+                    description: 'Full-time: This is my first job after finishing the university. At this job I have a position of Frontend Developer but now I’m working as a full stack with frameworks PHP Laravel and Vue.js',
                 },
                 {
                     from: '11/2020',
@@ -203,6 +202,11 @@ export default {
                     title: 'Vuetify',
                     icon: 'mdi-vuetify',
                     value: 70,
+                },
+                {
+                    title: 'WordPress',
+                    icon: 'mdi-wordpress',
+                    value: 90,
                 },
                 {
                     title: 'HTML',
@@ -278,8 +282,13 @@ export default {
                 },
                 {
                     project: '6',
-                    projectDescription: 'User administration to manage all users from admin panel in laravel 8 and bootstrap'
+                    projectDescription: 'User administration to manage all users from admin panel in laravel 8 and bootstrap. This application is designed to manage all users as an admin. A user is of 3 types, it can be editor, author or admin. An admin has full roles, can create new users, edit and delete users. Also, the administrator can check the mail of a user or send him a notification to check the mail. For now, a user can only see his profile'
+                },
+                {
+                    project: '7',
+                    projectDescription: 'Created a page that serves as a curriculum vitae in Vue3 and Vuetify3, the one you are already on now :)'
                 }
+
             ],
         }
     },
